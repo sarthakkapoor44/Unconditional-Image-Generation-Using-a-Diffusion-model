@@ -13,6 +13,13 @@ from torch.optim import Adam
 import streamlit as st
 from PIL import Image, ImageOps
 import os
+from einops import rearrange
+from torch import nn, einsum
+import torch.nn.functional as F
+from inspect import isfunction
+from functools import partial
+from torch.nn.modules.linear import Linear
+
 
 BATCH_SIZE = 64
 img_size = 64

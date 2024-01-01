@@ -11,3 +11,4 @@ datasets
 accelerate
 wandb
 open-clip-torch
+einops
