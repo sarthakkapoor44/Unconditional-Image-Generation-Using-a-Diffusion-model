@@ -1,29 +1,27 @@
 # Unconditional Image Generation with Diffusion Models
 
-This project demonstrates the capabilities of a simple diffusion model, developed from scratch and trained on a dataset of flowers, to generate novel images. To begin experimenting with this application, follow the instructions below:
+This project showcases the capabilities of a simple diffusion model, developed from scratch, which is trained on a dataset of flowers to generate new and unique images. Follow the instructions below to start exploring the application's functionalities.
 
 ### Installation and Setup
 
 1. **Install Dependencies:**
-    Ensure that you have the necessary libraries by executing the following command:
+   To ensure a smooth experience, install the required libraries by executing:
     ```python
     pip install -r requirements.txt
     ```
 
 2. **Launch the Application:**
-    Start the application by running:
+   Initiate the application by running:
     ```python
     streamlit run app.py
     ```
 
 ### Navigating the Application
 
-![image](https://github.com/himanshu-skid19/Unconditional-Image-Generation-Using-a-Diffusion-model/assets/114365148/dd786a3f-c09b-42ed-81f3-f6aacf9c0fbb)
-
 **Starting the Application:**
-Upon launching, you'll encounter a user-friendly interface. There's a prominent button labeled "Generate New Images." Clicking this will instruct the model to produce approximately 60 new images. 
+When you launch the application, you'll be greeted with an intuitive interface. You'll have the option to select between "Model without Attention" and "Model with Attention". Choose one to generate images from the corresponding model. This feature is designed to demonstrate the impact of incorporating attention mechanisms on the quality of generated images. To begin generating images, simply click the "Generate New Images" button, and the model will start producing around 60 new images.
+
+![Diffusion Model Interface](https://github.com/himanshu-skid19/Unconditional-Image-Generation-Using-a-Diffusion-model/assets/114365148/8a8c2813-8609-40e9-b14b-038326dd76c0)
 
 **Inference Time:**
-Please note that generating these images can take between 3 to 5 minutes, so a bit of patience is needed during this process.
-
-
+Be aware that generating images on a CPU may take between 3 to 5 minutes. Your patience is appreciated during this time. However, if you're using a GPU, the process will be significantly quicker, typically taking less than 1 minute.
