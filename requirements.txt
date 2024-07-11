@@ -1,0 +1,14 @@
+--find-links https://download.pytorch.org/whl/cu121
+torch
+torchvision
+torchaudio
+streamlit
+tqdm
+numpy
+matplotlib
+diffusers
+datasets
+accelerate
+wandb
+open-clip-torch
+einops
